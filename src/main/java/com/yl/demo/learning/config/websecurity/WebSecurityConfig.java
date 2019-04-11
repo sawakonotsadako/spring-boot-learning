@@ -66,6 +66,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .accessDeniedHandler(customAccessDeniedHandler());
         http
                 .authorizeRequests().antMatchers("/login/**").permitAll()
+                .and().authorizeRequests().antMatchers("/rabbitmq-sender/**").permitAll()
+
                 .and()
                 .authorizeRequests().anyRequest().authenticated();
     }

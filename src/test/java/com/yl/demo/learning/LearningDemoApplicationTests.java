@@ -20,7 +20,7 @@ public class LearningDemoApplicationTests {
 	}
 	@Test
 	public void testRabbitMQSender() throws Exception {
-		rabbitMQConfig.send("Hello RabbitMQ!");
+		rabbitMQConfig.send("Hello RabbitMQ! I am sending message to you!");
 	}
 
 }

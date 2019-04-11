@@ -9,8 +9,8 @@ import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.util.concurrent.CopyOnWriteArraySet;
 
-@ServerEndpoint("/websocket/{sid}")
-@Component
+//@ServerEndpoint("/websocket/{sid}")
+//@Component
 @Slf4j
 public class WebSocketServer {
 
@@ -25,7 +25,7 @@ public class WebSocketServer {
     //接收sid
     private String sid="";
 
-    @OnOpen
+    //@OnOpen
     public void onOpen(Session session,@PathParam("sid") String sid) {
         this.session = session;
         webSocketSet.add(this); //加入set中
@@ -42,7 +42,7 @@ public class WebSocketServer {
     /**
      * 连接关闭调用的方法
      */
-    @OnClose
+    //@OnClose
     public void onClose() {
         webSocketSet.remove(this); //从set中删除
         subOnlineCount(); //在线数减1
@@ -53,7 +53,7 @@ public class WebSocketServer {
      * 收到客户端消息后调用的方法
      *
      * @param message 客户端发送过来的消息*/
-    @OnMessage
+    //@OnMessage
     public void onMessage(String message, Session session) {
         log.info("收到来自窗口"+sid+"的信息:"+message);
         //群发消息
@@ -71,7 +71,7 @@ public class WebSocketServer {
      * @param session
      * @param error
      */
-    @OnError
+    //@OnError
     public void onError(Session session, Throwable error) {
         log.error("发生错误");
         error.printStackTrace();

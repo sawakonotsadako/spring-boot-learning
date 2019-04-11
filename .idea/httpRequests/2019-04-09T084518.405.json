@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-04-09T12:45:18.717+0000",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "message": "Request method 'GET' not supported",
+  "path": "/login"
+}

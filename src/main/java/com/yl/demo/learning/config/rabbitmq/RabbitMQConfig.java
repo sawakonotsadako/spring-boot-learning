@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-//@Configuration
+@Configuration
 @Slf4j
 public class RabbitMQConfig {
 
@@ -38,12 +38,12 @@ public class RabbitMQConfig {
     @Value("${mq.routekey}")
     private String routeKey;
 
-    /*public RabbitMQConfig() {
+    public RabbitMQConfig() {
         log.info("RabbitMQ Initialization As Belows:");
 
 
 
-    }*/
+    }
 
     @Bean
     public Queue queue() {

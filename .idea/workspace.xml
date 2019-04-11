@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cbc08fb-87ff-46d8-834b-d4251d11cda0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/LearningDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/algotithm/product/of/array/except/self/Enjoy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/algotithm/robin/RobinAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/algotithm/robin/test/RobinAnArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/annotation/AuditLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/aspect/AuditLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/oauth2/AuthorizationServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/oauth2/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/rabbitmq/RabbitMQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/rabbitmq/RabbitMQMessageConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/rabbitmq/RabbitMQMessageSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/redis/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/swagger2/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/webmvc/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websecurity/CustomAccessDeniedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websecurity/CustomAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websecurity/CustomAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websecurity/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websecurity/JwtHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websecurity/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websocket/TWSHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websocket/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websocket/WebSocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/enumeration/AccountStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/enumeration/AccountType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/AccountStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/ApiEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/ISystemCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/ISystemError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/ISystemStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/LoggedIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/OperationDescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/OperationStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/OperationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/SortBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/SortOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/LogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/NotificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/PayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/TokenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/WebSocketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/advice/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/observer/impl/Observable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/observer/impl/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/observer/impl/WeChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/observer/impl/WeChatUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/observer/test/ObserverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/strategy/impl/AliPay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/strategy/impl/PayStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/strategy/impl/StrategyContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/strategy/impl/StrategyFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/strategy/impl/WeChatPay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/design/pattern/strategy/test/StrategyPatternTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/dto/AuditLogQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/dto/ExternalUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/dto/IUserQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/email/sender/JavaMailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/auth/APIAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/auth/Oauth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/cart/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/comment/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/log/AuditLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/pay/Pay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/token/AuthenticationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/token/ServiceToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/user/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/entity/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/exception/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/exception/RequestNotAccpetableException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/exception/ResourceAlreadyExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/assets/fullimage1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/assets/fullimage2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/assets/fullimage3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/owlcarousel/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/owlcarousel/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/owlcarousel/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/regular/expression/collection.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/repository/AuditLogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/response/api/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/service/AuditLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/service/Auditable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/service/impl/AuditLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/ExcelUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/IPUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/IUserIdUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/PasswordUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-stg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yl/demo/learning/LearningDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-stg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/LearningDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/algotithm/product/of/array/except/self/Enjoy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/algotithm/robin/RobinAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/algotithm/robin/test/RobinAnArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/annotation/AuditLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/aspect/AuditLogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/oauth2/AuthorizationServerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/oauth2/ResourceServerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/rabbitmq/RabbitMQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/rabbitmq/RabbitMQMessageConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/rabbitmq/RabbitMQMessageSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/redis/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/swagger2/Swagger2Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/websecurity/CustomAccessDeniedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/websecurity/CustomAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/websecurity/CustomAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/websecurity/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/websecurity/JwtHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/websecurity/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/websocket/TWSHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/websocket/WebSocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/config/websocket/WebSocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/enumeration/AccountStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/enumeration/AccountType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/AccountStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/ApiEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/ISystemCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/ISystemError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/ISystemStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/LoggedIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/OperationDescription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/OperationStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/OperationType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/SortBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/constant/staticfinal/SortOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/CartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/LogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/MemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/NotificationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/PayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/SearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/TokenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/WebSocketController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/controller/advice/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/observer/impl/Observable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/observer/impl/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/observer/impl/WeChatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/observer/impl/WeChatUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/observer/test/ObserverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/strategy/impl/AliPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/strategy/impl/PayStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/strategy/impl/StrategyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/strategy/impl/StrategyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/strategy/impl/WeChatPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/design/pattern/strategy/test/StrategyPatternTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/dto/AuditLogQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/dto/ExternalUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/dto/IUserQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/email/sender/JavaMailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/auth/APIAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/auth/Oauth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/cart/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/comment/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/log/AuditLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/member/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/order/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/pay/Pay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/token/AuthenticationToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/token/ServiceToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/user/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/entity/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/exception/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/exception/RequestNotAccpetableException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/exception/ResourceAlreadyExistException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/repository/AuditLogRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/response/api/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/service/AuditLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/service/impl/AuditLogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/utils/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/utils/ExcelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/utils/IPUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/utils/IUserIdUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yl/demo/learning/utils/PasswordUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yl/demo/learning/LearningDemoApplicationTests.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/countdownlatch/CountDownLatchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-55">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/cyclicbarrier/CyclicBarrierTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/semaphore/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/semaphore/semaphoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="41" selection-start-column="41" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lom</find>
+      <find>swagger</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/LearningDemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/rabbitmq/RabbitMQMessageConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/rabbitmq/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yl/demo/learning/LearningDemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websocket/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websocket/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websecurity/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/rabbitmq/RabbitMQMessageSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/RabbitMQController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/countdownlatch/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/countdownlatch/CyclicBarrierTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/countdownlatch/countdownlatch/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/cyclicbarrier/CyclicBarrierTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/semaphore/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/semaphore/semaphoreTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Tools/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="C:\Users\sawakonotsadako\workspace\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Spring Boot Learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Spring Boot Learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="170" />
+    <option name="y" value="50" />
+    <option name="width" value="3505" />
+    <option name="height" value="1960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="cyclicbarrier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="semaphore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554646220928" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring Cloud Learning/spring-cloud-learning" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4827586" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="rabbitmq-sender/hello rabbit mq" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="rabbitmq-sender/hello" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="rabbitmq-send/hello rabbitmq" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8090" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.semaphoreTest">
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yl.demo.learning.concurrent.learning.countdownlatch.CountDownLatchTest" />
+      <module name="spring-boot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yl.demo.learning.concurrent.learning.countdownlatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yl.demo.learning.concurrent.learning.countdownlatch.cyclicbarrier.CyclicBarrierTest" />
+      <module name="spring-boot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yl.demo.learning.concurrent.learning.countdownlatch.countdownlatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.yl.demo.learning.concurrent.learning.cyclicbarrier.CyclicBarrierTest" />
+      <module name="spring-boot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yl.demo.learning.concurrent.learning.cyclicbarrier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yl.demo.learning.LearningDemoApplication" />
+      <module name="spring-boot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yl.demo.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="semaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yl.demo.learning.concurrent.learning.semaphore.semaphoreTest" />
+      <module name="spring-boot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yl.demo.learning.concurrent.learning.semaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningDemoApplicationTests.testRabbitMQSender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yl.demo.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yl.demo.learning" />
+      <option name="MAIN_CLASS_NAME" value="com.yl.demo.learning.LearningDemoApplicationTests" />
+      <option name="METHOD_NAME" value="testRabbitMQSender" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-learning" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yl.demo.learning.LearningDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LearningDemoApplication" />
+      <item itemvalue="Application.CyclicBarrierTest" />
+      <item itemvalue="JUnit.LearningDemoApplicationTests.testRabbitMQSender" />
+      <item itemvalue="Spring Boot.LearningDemoApplication" />
+      <item itemvalue="Application.CountDownLatchTest" />
+      <item itemvalue="Application.semaphoreTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.semaphoreTest" />
+        <item itemvalue="Application.CyclicBarrierTest" />
+        <item itemvalue="Application.CountDownLatchTest" />
+        <item itemvalue="Application.CyclicBarrierTest" />
+        <item itemvalue="Application.LearningDemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cbc08fb-87ff-46d8-834b-d4251d11cda0" name="Default Changelist" comment="" />
+      <created>1553175426404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553175426404</updated>
+      <workItem from="1553175429028" duration="1192000" />
+      <workItem from="1553177664480" duration="37000" />
+      <workItem from="1553177717248" duration="1052000" />
+      <workItem from="1553180696897" duration="622000" />
+      <workItem from="1553181952520" duration="27000" />
+      <workItem from="1553182110262" duration="11000" />
+      <workItem from="1553182142561" duration="827000" />
+      <workItem from="1553253184604" duration="185000" />
+      <workItem from="1553253388092" duration="1311000" />
+      <workItem from="1553254949053" duration="725000" />
+      <workItem from="1553257698864" duration="702000" />
+      <workItem from="1553259271895" duration="7599000" />
+      <workItem from="1554378038529" duration="2467000" />
+      <workItem from="1554810316122" duration="25000" />
+      <workItem from="1554810362581" duration="6022000" />
+      <workItem from="1554905887137" duration="2964000" />
+      <workItem from="1554982127351" duration="4233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LearningDemoApplicationTests - 2019.03.24 at 00h 24m 36s.xml">
+      <configuration name="LearningDemoApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LearningDemoApplicationTests_testRabbitMQSender - 2019.03.24 at 00h 25m 59s.xml">
+      <configuration name="LearningDemoApplicationTests.testRabbitMQSender" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LearningDemoApplicationTests_testRabbitMQSender - 2019.03.24 at 00h 27m 47s.xml">
+      <configuration name="LearningDemoApplicationTests.testRabbitMQSender" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LearningDemoApplicationTests_testRabbitMQSender - 2019.03.24 at 00h 31m 25s.xml">
+      <configuration name="LearningDemoApplicationTests.testRabbitMQSender" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30001000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31455398" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966466" visible="true" weight="0.40311173" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" x="23" y="296" width="1491" height="232" id="Terminal" order="10" type="FLOATING" weight="0.3281471" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50033534" side_tool="true" weight="0.5346535" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32874617" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="REST Client" order="15" weight="0.44554454" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949698" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3286385" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3286385" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3293092" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/webmvc/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websocket/TWSHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websocket/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websocket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/enumeration/AccountStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/enumeration/AccountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/AccountStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/ApiEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/ISystemCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/ISystemError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/ISystemStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/LoggedIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/OperationDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/OperationStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/OperationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/SortBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/constant/staticfinal/SortOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/advice/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/email/sender/JavaMailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/html/carousel.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/regular/expression/collection.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/repository/AuditLogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/response/api/ApiResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/IPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/IUserIdUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/PasswordUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/service/Auditable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/utils/ExcelUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/LearningDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/rabbitmq/RabbitMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/rabbitmq/RabbitMQMessageConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/websecurity/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="68" column="72" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.7.RELEASE/spring-messaging-5.0.7.RELEASE.jar!/org/springframework/messaging/handler/annotation/MessageMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yl/demo/learning/LearningDemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/config/rabbitmq/RabbitMQMessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/controller/RabbitMQController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="290" column="22" selection-start-line="290" selection-start-column="22" selection-end-line="290" selection-end-column="22" />
+          <folding>
+            <element signature="e#9899#9900#0" expanded="true" />
+            <element signature="e#9936#9937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10642">
+          <caret line="669" column="17" selection-start-line="669" selection-start-column="17" selection-end-line="669" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/countdownlatch/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/semaphore/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/semaphore/semaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yl/demo/learning/concurrent/learning/cyclicbarrier/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4827586" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4827586" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4827586" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-boot-learning</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4827586" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4827586" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
