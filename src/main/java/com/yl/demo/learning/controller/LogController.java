@@ -14,6 +14,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
+
 @Slf4j
 @RestController
 @Api(value = "Log Portal")
@@ -40,4 +42,5 @@ public class LogController {
 
         return new ApiResponse<Object>(auditLogService.getAuditLogs(pageable, new AuditLogQuery()), HttpStatus.OK, ApiEndpoint.GET_AUDITlOGS);
     }
+
 }

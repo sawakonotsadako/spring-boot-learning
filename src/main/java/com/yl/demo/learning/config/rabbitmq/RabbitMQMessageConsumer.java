@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class RabbitMQMessageConsumer {
 
-    @RabbitListener(queues = "${mq.queue.name}")
-    @RabbitHandler
+    //@RabbitListener(queues = "${mq.queue.name}")
+    //@RabbitHandler
     public void process(String message) {
         log.info("message from RabbitMQ:"+message);
 

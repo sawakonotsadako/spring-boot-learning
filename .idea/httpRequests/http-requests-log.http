@@ -1,0 +1,32 @@
+POST http://localhost:8090/rabbitmq-sender/hello%20rabbit%20mq
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-20T081323.200.txt
+
+###
+
+POST http://localhost:8090/rabbitmq-sender/hello%20rabbit%20mq
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-20T080035.200.txt
+
+###
+
+POST http://localhost:8090/rabbitmq-sender/hello%20rabbit%20mq
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-20T075935.200.txt
+
+###
+
+POST http://localhost:8090/rabbitmq-sender/hello%20rabbit%20mq
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-20T075429.200.txt
+
+###
+

@@ -1,6 +1,7 @@
 package com.yl.demo.learning;
 
 import com.yl.demo.learning.config.rabbitmq.RabbitMQConfig;
+import com.yl.demo.learning.config.rabbitmq.RabbitMQMessageSender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class LearningDemoApplicationTests {
 
 	@Autowired
-    RabbitMQConfig rabbitMQConfig;
+	RabbitMQMessageSender rabbitMQMessageSender;
 
 	@Test
 	public void contextLoads() throws Exception {
@@ -20,7 +21,7 @@ public class LearningDemoApplicationTests {
 	}
 	@Test
 	public void testRabbitMQSender() throws Exception {
-		rabbitMQConfig.send("Hello RabbitMQ! I am sending message to you!");
+		rabbitMQMessageSender.send("Hello RabbitMQ! I am sending message to you!");
 	}
 
 }
